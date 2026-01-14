@@ -13,6 +13,7 @@ Let's get your robots calibrated and working together! 🤖
 Before you can use teleoperation, LeRobot needs to know the exact position of each motor in your robot arms. This process is called **calibration**.
 
 When you run teleoperation for the first time, the system will:
+
 1. Check if calibration data exists
 2. If missing, it will ask you to calibrate each robot
 3. Guide you through moving each motor to specific positions
@@ -54,6 +55,7 @@ Before starting calibration, you need to position your robot in a specific **hom
 ![Robot Home Position](assets/photo_2026-01-12_17-59-11.png)
 
 **Look at the image above carefully!** This shows the correct starting position for calibration:
+
 - Arm should be in an upright, neutral position
 - All joints in a relaxed state
 - Gripper can be open or closed
@@ -92,11 +94,12 @@ When calibration is needed, the system will guide you through it in this sequenc
 ### Calibration Sequence:
 
 1. **Leader Arm Calibration First**
+
    - The system will ask you to calibrate the leader arm
    - It will prompt you to move each motor through its range of motion
    - Follow the on-screen instructions carefully
-
 2. **Follower Arm Calibration Second**
+
    - After the leader arm is calibrated, it will ask for the follower arm
    - Same process - move each motor as instructed
    - Make sure to move motors smoothly and completely
@@ -105,9 +108,14 @@ When calibration is needed, the system will guide you through it in this sequenc
 
 Watch this video to see the calibration process in action:
 
-**Video Tutorial:** [Click here to watch the calibration demo](assets/video_2026-01-12_17-59-15.mp4)
+video width="640" height="480" controls>
+
+<source src="assets/video_2026-01-12_17-59-15.mp4" type="video/mp4">
+  Your browser does not support the video tag. <a href="assets/video_2026-01-12_17-59-15.mp4">Download the video here</a>.
+</video>
 
 **Key points from the video:**
+
 - Start with the robot in the home position (see image from Step 1)
 - Follow the prompts on screen
 - Move each motor/joint slowly and smoothly
@@ -115,6 +123,7 @@ Watch this video to see the calibration process in action:
 - The system will save the calibration data automatically
 
 **You need to do this for BOTH robots:**
+
 - ✅ Leader arm calibration
 - ✅ Follower arm calibration
 
