@@ -167,8 +167,36 @@ Once you run the command:
 2. **Follow the prompts** - Press Enter to start each episode
 3. **Perform the demonstration** - Use the leader arm to control the follower
 4. **Complete the task** - Finish the episode successfully
-5. **Press 's' to stop** - End the current episode
+5. **Accept or discard the episode** - Use keyboard controls (see below)
 6. **Repeat** - Continue until you've recorded all episodes
+
+### Keyboard Controls During Recording
+
+While recording episodes, you have full control over accepting or discarding demonstrations:
+
+| Key | Action |
+|-----|--------|
+| **Right Arrow (→)** | Accept the episode and save it to the dataset |
+| **Left Arrow (←)** | Discard the episode (if it wasn't good) |
+| **ESC** | Stop the entire recording session |
+
+**How to handle a bad episode:**
+
+1. If you make a mistake during recording, **press Left Arrow (←)**
+2. The system will ask you to reset the environment (put objects back to starting position)
+3. **Press Right Arrow (→)** to continue recording the next episode
+4. If you want to stop the whole session completely, **press ESC**
+
+**Example workflow:**
+```
+→ Episode starts
+→ You perform the task
+→ Made a mistake? Press ← (Left Arrow)
+→ System: "Please reset environment"
+→ Reset objects to starting position
+→ Press → (Right Arrow) to record next episode
+→ Continue...
+```
 
 ### Important: Watch the Cameras, Not the Robot!
 

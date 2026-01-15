@@ -126,6 +126,25 @@ If you're using a **USB hub**:
 - ❌ **DON'T**: Connect all devices (2 robots + 2 cameras) to a single USB hub
   - This causes bandwidth congestion and communication delays
 
+### ⚠️ CRITICAL: USB Cable Requirements for Hubs
+
+**If you're using a USB hub, you MUST use proper USB data transfer cables!**
+
+- ✅ **DO**: Use **USB data transfer braided cables**
+  - These cables support both power AND data transfer
+  - Look for cables labeled "data sync" or "charging + data"
+- ❌ **DON'T**: Use charging-only cables
+  - These cables only have power wires, NO data wires
+  - **Your devices will NOT be detected** if using charging-only cables with a USB hub
+  - This is the most common reason for "device not detected" errors
+
+**How to identify a data cable:**
+- Check the cable packaging - it should say "data transfer" or "sync + charge"
+- Data cables are usually thicker than charging-only cables
+- If a device works when plugged directly to PC but not through a hub, check your cable!
+
+**Pro tip:** When buying cables for your setup, specifically ask for "USB data cables" or "USB sync cables" - don't just grab any USB cable!
+
 ### ⏱️ About Timeout Modifications
 
 **Good news!** This repository includes modified scripts with increased timeout values:
