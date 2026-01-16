@@ -1,0 +1,63 @@
+NOTICE - LeRobot SO-101 Fork
+
+This is a modified version of LeRobot by Hugging Face.
+Original repository: https://github.com/huggingface/lerobot
+
+================================================================================
+
+Modifications by Vizuara (2026):
+
+This fork contains modifications specifically for SO-101 robot users on Windows,
+including:
+
+1. Windows Compatibility Improvements
+   - Modified camera timeout handling (src/lerobot/cameras/opencv/camera_opencv.py)
+   - Increased motor communication timeout (src/lerobot/motors/feetech/feetech.py)
+   - Removed unsupported camera backend parameters for Windows
+
+2. Hardware-Specific Fixes
+   - SO-101 Motor 5 encoder bit-15 workaround
+   - Modified timeout values for USB hub compatibility
+   - Enhanced error handling for Windows serial communication
+
+3. Documentation Enhancements
+   - Complete tutorial series for SO-101 setup and usage
+   - Detailed hardware setup guides with Windows-specific instructions
+   - USB cable and hub compatibility documentation
+   - Comprehensive troubleshooting guides
+
+4. Custom Scripts and Tools
+   - Motor diagnostic and calibration utilities
+   - Camera testing and configuration tools
+   - Dataset recording helpers
+
+For detailed list of modifications, see: MODIFICATIONS.md
+
+================================================================================
+
+Original Copyright Notice:
+
+Copyright 2024 The Hugging Face team. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================================
+
+This software incorporates code from the following third-party projects:
+- Diffusion Policy (MIT License)
+- FOWM (MIT License)
+- simxarm (MIT License)
+- ALOHA (MIT License)
+- DETR (Apache License 2.0)
+
+See the LICENSE file for full license text and all third-party notices.

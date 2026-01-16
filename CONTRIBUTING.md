@@ -1,3 +1,40 @@
+# Contributing to LeRobot SO-101 Fork
+
+> **⚠️ Important Notice:**  
+> This is a **community-maintained fork** of [Hugging Face LeRobot](https://github.com/huggingface/lerobot) optimized for SO-101 robots on Windows.
+> - **To contribute to the official LeRobot**: Visit [huggingface/lerobot Contributing Guide](https://github.com/huggingface/lerobot/blob/main/CONTRIBUTING.md)
+
+---
+
+## What You Can Contribute to This Fork
+
+We welcome contributions that improve the SO-101 experience on Windows! Here are valuable areas:
+
+### Windows Compatibility
+- Windows-specific bug fixes
+- Improved error messages for Windows users
+- USB hub and device compatibility improvements
+- Serial communication enhancements
+
+### Documentation & Tutorials
+- Improvements to existing guides in `resources/`
+- Additional troubleshooting scenarios
+- Video tutorials and demonstrations
+- Translation of guides to other languages
+
+### SO-101 Specific Tools
+- New diagnostic scripts in `scripts/`
+- Motor calibration improvements
+- Camera testing utilities
+- Hardware troubleshooting tools
+
+### Bug Reports
+- Windows-specific issues
+- SO-101 hardware quirks
+- Documentation errors or unclear instructions
+
+---
+
 # How to contribute to 🤗 LeRobot?
 
 Everyone is welcome to contribute, and we value everybody's contribution. Code
