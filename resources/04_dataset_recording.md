@@ -344,7 +344,6 @@ lerobot-replay --robot.type=so101_follower --robot.port=COM10 --robot.id=my_awes
 **Solution:**
 
 - Reduce camera resolution (720p instead of 1080p)
-- Reduce FPS (10 instead of 15)
 - Close unnecessary programs running in background
 - Check USB bandwidth (avoid hubs if possible)
 
