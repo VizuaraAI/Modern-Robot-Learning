@@ -4,7 +4,7 @@ Hey everyone! Welcome to the **third guide** in our SO-101 LeRobot tutorial seri
 
 Now that we have the software installed and hardware connected, it's time to calibrate the robots and test teleoperation! In this guide, we'll first calibrate both the leader and follower arms, then run teleoperation to control the follower arm using the leader arm. This is a crucial step to verify your setup before recording datasets.
 
-Let's get your robots calibrated and working together! 🤖
+Let's get your robots calibrated and working together! 
 
 ---
 
@@ -108,7 +108,7 @@ When calibration is needed, the system will guide you through it in this sequenc
 
 Watch this video to see the calibration process in action:
 
-video width="640" height="480" controls>
+<video width="640" height="480" controls>
 
 <source src="assets/video_2026-01-12_17-59-15.mp4" type="video/mp4">
   Your browser does not support the video tag. <a href="assets/video_2026-01-12_17-59-15.mp4">Download the video here</a>.

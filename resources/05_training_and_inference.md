@@ -229,8 +229,8 @@ lerobot-train \
 
 1. **Clone your repo:**
    ```bash
-   git clone https://github.com/OmuNaman/newly_repo-.git
-   cd newly_repo-
+   git clone https://github.com/OmuNaman/Modern-Robot-Learning.git
+   cd Modern-Robot-Learning
    ```
 
 2. **Follow Installation Guide** - Complete [01_installation_guide.md](01_installation_guide.md)

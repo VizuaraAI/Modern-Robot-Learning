@@ -11,8 +11,8 @@ Let's get started with the installation and setup process!
 First, let's clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/OmuNaman/newly_repo-.git
-cd newly_repo-
+git clone https://github.com/OmuNaman/Modern-Robot-Learning.git
+cd Modern-Robot-Learning
 ```
 
 ## Step 2: Create a Virtual Environment
